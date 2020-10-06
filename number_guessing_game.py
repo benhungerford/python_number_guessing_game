@@ -6,7 +6,7 @@ name  = input("Hello, I have a guessing game for you! What is your name?:")
 
 guesses = 0
 
-print('Alright, '+ name+ ', I am thinking of a number between 1 and 50. Can you guess it in 5 tries?')
+print('Alright, ' + name + ', I am thinking of a number between 1 and 50. Can you guess it in 5 tries?')
 
 while guesses < 5 :
     guess = int(input())
