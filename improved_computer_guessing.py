@@ -12,12 +12,13 @@ def computer_guess(number):
         elif guess < number:
             lower = guess + 1
         elif guess == number:
+            print('The computer guessed', guess, 'correctly!')
             break
-            
+
         if guesses > 5:
             print('The computer did not guess the number.')
-        elif guess == number:
-            print('The computer guessed', guess, 'correctly!')
+
+
 
 
 
@@ -28,5 +29,5 @@ def main():
     else:
         computer_guess(number)
 
-if __name__ == '__main__':
-    main()
+
+main()
